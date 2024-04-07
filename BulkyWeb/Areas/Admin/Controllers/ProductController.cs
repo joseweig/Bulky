@@ -163,7 +163,7 @@ namespace BulkyWeb.Areas.Admin.Controllers
         //    return RedirectToAction("Index");
         //}
 
-        #region API CALLS
+        #region API CALLS for dataTables.js
 
         [HttpGet]
         public IActionResult GetAll()
